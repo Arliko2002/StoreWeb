@@ -1,0 +1,137 @@
+
+.fontNanum { font-family: 'Nanum Myeongjo', serif; }
+
+.fontPlayFair { font-family: 'Playfair Display', serif; }
+
+.padding1 { padding-top: 70px;}
+.padding2 { padding-top: 100px;}
+
+.image1{
+  padding-top: 53px;
+  widt1: 107%;
+
+}
+.image2{
+  display: none;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px){
+  .image1{
+    display: none;
+  }
+
+  .image2{
+    display: block;
+    width: 90%;
+  }
+}
+
+.btn-outline-dark:hover{
+    background: #a08972;
+}
+.btnviewmore {
+    background: black;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+.btnviewmore:hover {
+    background: #a08972;
+    text-decoration: none;
+    border: solid #000000 1px;
+  }
+
+  #button-addon1 {
+    color: #a08972;
+  }
+
+
+#testimonials {
+  text-align: center;
+  margin-top: 8rem;
+  background-color: #fff;
+}
+
+.testimonial-img {
+  height: 400px;
+  width: 300px;
+}
+
+.carousel-item {
+padding: 7% 10%;
+}
+
+.newCollection{
+  padding:50px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 70px;
+  width: 70px;
+  background-size: 100%, 100%;
+  border-radius: 40%;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 42px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 42px;
+  color: black;
+}
+.arrow{
+  color: black;
+
+  outline: black;
+}
+
+
+
+  i {
+    color: #a08972;
+  }
+
+  /* a {
+    color: black;
+  }
+  a:hover{
+    color: black;
+    text-decoration: none;
+  } */
+
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+
+
+  .fa-facebook-f{ color:#a08972 }
+  .fa-instagram { color:#a08972 }
+  .fa-twitter { color:#a08972 }
+  .fa-pinterest { color:#a08972 }
+
+  h6{ color:#a08972 }
+
+.supporters {
+  height: 300px;
+}
+
+.support {
+  margin: 40px;
+}
+
+#support-text{
+text-align: center;
+}
